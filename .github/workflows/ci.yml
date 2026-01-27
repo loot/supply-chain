@@ -1,0 +1,46 @@
+name: CI
+on:
+  schedule:
+    # At 01:23 every Saturday.
+    - cron:  '23 1 * * 6'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aggregate:
+    name: Aggregate Dependencies
+
+    runs-on: ubuntu-24.04
+
+    env:
+      CARGO_VET_REV: 28f617ea97392d527799649db588a6dbb695da8d # 0.10.2
+
+    steps:
+    - uses: actions/checkout@v6
+
+    - uses: actions/cache@v5
+      with:
+        path: ${{ runner.tool_cache }}/cargo-vet
+        key: cargo-vet-bin-${{ env.CARGO_VET_REV }}
+
+    - name: Add the tool cache directory to the search path
+      run: echo "${{ runner.tool_cache }}/cargo-vet/bin" >> $GITHUB_PATH
+
+    - name: Ensure that the tool cache is populated with the cargo-vet binary
+      run: cargo install --root ${{ runner.tool_cache }}/cargo-vet --locked --git https://github.com/mozilla/cargo-vet --rev ${{ env.CARGO_VET_REV }} cargo-vet
+      if: steps.cache-cargo-vet.outputs.cache-hit != 'true'
+
+    - name: Invoke cargo-vet aggregate
+      run: cargo vet aggregate --output-file audits.toml sources.list
+
+    - name: Commit changes (if any)
+      run: |
+        git config --global user.name "cargo-vet[bot]"
+        git config --global user.email "cargo-vet-aggregate@invalid"
+        git add audits.toml
+        git commit -m "Aggregate new audits" || true
+
+    - name: Push changes (if any)
+      run: git push origin main
