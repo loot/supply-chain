@@ -1,4 +1,28 @@
 
+[[audits.anstyle-query]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.1.3 -> 1.1.5"
+aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.anstyle-wincon]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "3.0.9 -> 3.0.11"
+aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.clap]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "4.5.40 -> 4.5.47"
+aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.clap_builder]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "4.5.40 -> 4.5.47"
+aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.codespan-reporting]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -59,6 +83,12 @@ criteria = "safe-to-deploy"
 delta = "0.0.5 -> 0.0.6"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.errno]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.3.12 -> 0.3.14"
+aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.libloading]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -71,13 +101,6 @@ who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "0.8.9 -> 0.9.0"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
-
-[[audits.libloot]]
-who = "Oliver Hamlet <git@ortham.net>"
-criteria = "safe-to-deploy"
-version = "0.28.2"
-notes = "This is a first-party crate published using Trusted Publishing, but I can't mark it as trusted by cargo-vet because it doesn't support Trusted Publishing and just sees that the publisher is unknown."
-aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.link-cplusplus]]
 who = "Oliver Hamlet <git@ortham.net>"
@@ -139,6 +162,12 @@ criteria = "safe-to-deploy"
 delta = "3.0.0 -> 3.2.1"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.proc-macro2]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.0.105 -> 1.0.106"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.regex]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -192,6 +221,13 @@ end = "2027-01-19"
 notes = "This is my own crate, published from my own Git repo using Trusted Publishing."
 aggregated-from = "https://raw.githubusercontent.com/loot/loot-condition-interpreter/refs/heads/master/supply-chain/audits.toml"
 
+[[trusted.esplugin]]
+criteria = "safe-to-deploy"
+trusted-publisher = "github:Ortham/esplugin"
+start = "2025-09-29"
+end = "2027-01-26"
+aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
 [[trusted.futures-task]]
 criteria = "safe-to-deploy"
 user-id = 33035
@@ -238,6 +274,20 @@ start = "2025-08-01"
 end = "2027-01-19"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[trusted.libloadorder]]
+criteria = "safe-to-deploy"
+trusted-publisher = "github:Ortham/libloadorder"
+start = "2025-08-01"
+end = "2027-01-26"
+aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
+[[trusted.libloot]]
+criteria = "safe-to-deploy"
+trusted-publisher = "github:loot/libloot"
+start = "2025-08-11"
+end = "2027-01-26"
+aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
 [[trusted.loot-condition-interpreter]]
 criteria = "safe-to-deploy"
 trusted-publisher = "github:loot/loot-condition-interpreter"
@@ -245,6 +295,13 @@ start = "2025-09-29"
 end = "2027-01-19"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[trusted.loot-condition-interpreter]]
+criteria = "safe-to-deploy"
+trusted-publisher = "github:loot/loot-condition-interpreter"
+start = "2025-09-29"
+end = "2027-01-26"
+aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
 [[trusted.windows-link]]
 criteria = "safe-to-deploy"
 user-id = 64539
@@ -316,66 +373,3 @@ start = "2022-09-09"
 end = "2026-09-17"
 notes = "kennykerr is on the Windows team at Microsoft."
 aggregated-from = "https://raw.githubusercontent.com/loot/loot-condition-interpreter/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows-targets]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2022-09-09"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_aarch64_gnullvm]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2022-09-01"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_aarch64_msvc]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2021-11-05"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_i686_gnu]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2021-10-28"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_i686_gnullvm]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2024-04-02"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_i686_msvc]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2021-10-27"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_x86_64_gnu]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2021-10-28"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_x86_64_gnullvm]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2022-09-01"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_x86_64_msvc]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2021-10-27"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
