@@ -144,6 +144,12 @@ criteria = "safe-to-deploy"
 delta = "0.4.28 -> 0.4.29"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.log]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.4.29 -> 0.4.33"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.memchr]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -229,6 +235,12 @@ criteria = "safe-to-deploy"
 delta = "1.11.3 -> 1.12.2"
 aggregated-from = "https://raw.githubusercontent.com/loot/loot-condition-interpreter/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.regex]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.12.2 -> 1.12.4"
+aggregated-from = "https://raw.githubusercontent.com/loot/loot-condition-interpreter/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.regex-automata]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -240,6 +252,12 @@ aggregated-from = "https://raw.githubusercontent.com/loot/loot-condition-interpr
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "0.4.11 -> 0.4.13"
+aggregated-from = "https://raw.githubusercontent.com/loot/loot-condition-interpreter/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.regex-syntax]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.8.5 -> 0.8.11"
 aggregated-from = "https://raw.githubusercontent.com/loot/loot-condition-interpreter/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.regress]]
