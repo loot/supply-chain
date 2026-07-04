@@ -23,6 +23,12 @@ criteria = "safe-to-deploy"
 delta = "1.0.101 -> 1.0.102"
 aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.anyhow]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.0.102 -> 1.0.103"
+aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.clap]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
