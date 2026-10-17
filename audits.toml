@@ -306,6 +306,12 @@ criteria = "safe-to-deploy"
 delta = "5.0.0 -> 5.4.0"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.petgraph]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.8.2 -> 0.8.3"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.proc-macro2]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
