@@ -1,4 +1,10 @@
 
+[[audits.aho-corasick]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.1.3 -> 1.1.5"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.anstyle-query]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -34,6 +40,18 @@ who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "1.0.103 -> 1.0.104"
 aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.autocfg]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.5.0 -> 1.5.1"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.cfg-if]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.0.4 -> 1.0.5"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.clap]]
 who = "Oliver Hamlet <git@ortham.net>"
@@ -83,16 +101,40 @@ criteria = "safe-to-deploy"
 delta = "0.8.0 -> 0.10.0"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.convert_case]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.10.0 -> 0.12.0"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.crc32fast]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "1.5.0 -> 1.5.2"
 aggregated-from = "https://raw.githubusercontent.com/loot/loot-condition-interpreter/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.crossbeam-deque]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.8.6 -> 0.8.8"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.crossbeam-epoch]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "0.9.20 -> 0.9.21"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.crossbeam-utils]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.8.21 -> 0.8.23"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.crunchy]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.2.3 -> 0.2.4"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.ctor]]
@@ -197,16 +239,46 @@ criteria = "safe-to-deploy"
 delta = "0.0.5 -> 0.0.6"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.either]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.16.0 -> 1.19.0"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.equivalent]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.0.2 -> 1.0.3"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.errno]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "0.3.12 -> 0.3.14"
 aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.fastrand]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-run"
+delta = "2.3.0 -> 2.5.0"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.getrandom]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-run"
+delta = "0.4.2 -> 0.4.3"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.hashlink]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "0.11.0 -> 0.12.2"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.indexmap]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "2.14.0 -> 2.14.2"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.libloading]]
@@ -282,6 +354,12 @@ criteria = "safe-to-deploy"
 delta = "3.5.0 -> 3.5.1"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.napi-derive]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "3.5.1 -> 3.6.12"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.napi-derive-backend]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -300,10 +378,22 @@ criteria = "safe-to-deploy"
 delta = "3.0.0 -> 3.2.1"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.napi-sys]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "3.2.1 -> 3.4.0"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.ordered-float]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "5.0.0 -> 5.4.0"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.pest]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "2.8.0 -> 2.9.2"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.petgraph]]
@@ -330,6 +420,18 @@ criteria = "safe-to-deploy"
 delta = "1.0.106 -> 1.0.107"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.pyo3-log]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.12.4 -> 0.13.4"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.pyo3-macros]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.25.1 -> 0.29.3"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.quote]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -354,6 +456,12 @@ who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "1.12.2 -> 1.12.4"
 aggregated-from = "https://raw.githubusercontent.com/loot/loot-condition-interpreter/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.regex]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.12.3 -> 1.12.4"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.regex]]
 who = "Oliver Hamlet <git@ortham.net>"
@@ -385,6 +493,12 @@ who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "0.4.14 -> 0.4.16"
 aggregated-from = "https://raw.githubusercontent.com/loot/loot-condition-interpreter/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.regex-automata]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.4.16 -> 0.4.18"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.regex-syntax]]
 who = "Oliver Hamlet <git@ortham.net>"
@@ -446,6 +560,30 @@ criteria = "safe-to-deploy"
 delta = "0.2.1 -> 0.2.2"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.scratch]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.0.8 -> 1.0.9"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.serde]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.0.228 -> 1.0.229"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.serde_core]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.0.228 -> 1.0.229"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.serde_derive]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.0.228 -> 1.0.229"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.slab]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -476,6 +614,12 @@ criteria = "safe-to-deploy"
 delta = "3.0.3 -> 3.0.9"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.target-lexicon]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.13.2 -> 0.13.5"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.thiserror]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -486,6 +630,19 @@ aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/mas
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "2.0.12 -> 2.0.21"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.unicode-ident]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.0.18 -> 1.0.27"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[trusted.cc]]
+criteria = "safe-to-deploy"
+trusted-publisher = "github:rust-lang/cc-rs"
+start = "2025-09-01"
+end = "2027-10-17"
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
 [[trusted.esplugin]]
@@ -509,6 +666,13 @@ trusted-publisher = "github:Ortham/esplugin"
 start = "2025-09-29"
 end = "2027-01-26"
 aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
+[[trusted.find-msvc-tools]]
+criteria = "safe-to-deploy"
+trusted-publisher = "github:rust-lang/cc-rs"
+start = "2025-09-05"
+end = "2027-10-17"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
 [[trusted.futures-task]]
 criteria = "safe-to-deploy"
@@ -549,6 +713,13 @@ end = "2026-09-28"
 notes = "rust-lang-owner is a bot managed by the Rust language's infrastructure team, and the source repo is owned by the rust-lang GitHub org."
 aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
+[[trusted.libc]]
+criteria = "safe-to-deploy"
+trusted-publisher = "github:rust-lang/libc"
+start = "2026-10-02"
+end = "2027-10-17"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
 [[trusted.libloadorder]]
 criteria = "safe-to-deploy"
 trusted-publisher = "github:Ortham/libloadorder"
@@ -583,6 +754,34 @@ trusted-publisher = "github:loot/loot-condition-interpreter"
 start = "2025-09-29"
 end = "2027-01-26"
 aggregated-from = "https://raw.githubusercontent.com/loot/metadata-validator/refs/heads/master/supply-chain/audits.toml"
+
+[[trusted.pyo3]]
+criteria = "safe-to-deploy"
+trusted-publisher = "github:PyO3/pyo3"
+start = "2025-08-29"
+end = "2027-10-18"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[trusted.pyo3-build-config]]
+criteria = "safe-to-deploy"
+trusted-publisher = "github:PyO3/pyo3"
+start = "2025-08-29"
+end = "2027-10-18"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[trusted.pyo3-ffi]]
+criteria = "safe-to-deploy"
+trusted-publisher = "github:PyO3/pyo3"
+start = "2025-08-29"
+end = "2027-10-18"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
+
+[[trusted.pyo3-macros-backend]]
+criteria = "safe-to-deploy"
+trusted-publisher = "github:PyO3/pyo3"
+start = "2025-08-29"
+end = "2027-10-18"
+aggregated-from = "https://raw.githubusercontent.com/loot/libloot/refs/heads/master/supply-chain/audits.toml"
 
 [[trusted.windows-link]]
 criteria = "safe-to-deploy"
